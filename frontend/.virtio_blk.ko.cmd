@@ -1,0 +1,1 @@
+cmd_/root/Desktop/code/frontend_linux5.1/virtio_blk.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T /usr/src/linux-5.3.18-45/scripts/module-common.lds --build-id  -o /root/Desktop/code/frontend_linux5.1/virtio_blk.ko /root/Desktop/code/frontend_linux5.1/virtio_blk.o /root/Desktop/code/frontend_linux5.1/virtio_blk.mod.o ;  true

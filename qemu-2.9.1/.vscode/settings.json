@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "char_multi_dev.h": "c",
+        "in.h": "c",
+        "socket.h": "c",
+        "file.h": "c",
+        "virtio-bus.h": "c"
+    }
+}

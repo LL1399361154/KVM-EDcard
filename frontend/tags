@@ -1,0 +1,338 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+C	app/ecc.h	/^	unsigned char C[ECCref_MAX_LEN];$/;"	m	struct:ECCCipher_st
+ConvertRSAKeyPart	app/Test.c	/^void ConvertRSAKeyPart(unsigned char *pDst, unsigned char *pSrc, int nSrcLen, int nConvertNum)$/;"	f
+ConvertSM1Key	app/Test.c	/^void ConvertSM1Key(unsigned int *pDst, unsigned int *pSrc, unsigned int nBlockNum)$/;"	f
+D	app/ecc.h	/^	unsigned char D[ECCref_MAX_LEN];  \/\/ ÀΩ‘ø$/;"	m	struct:ECCrefKeyPair_st
+D	app/ecc.h	/^	unsigned char D[ECCref_MAX_LEN];$/;"	m	struct:ECCrefPrivateKey_st
+DATA_IN_SECTION	app/Test.c	22;"	d	file:
+DWORD	app/Test.c	/^typedef unsigned int       DWORD;$/;"	t	file:
+DeviceHandle	app/Test.c	/^unsigned int DeviceHandle;$/;"	v
+Dialog	app/Test.c	/^int Dialog( int  hDevice,  unsigned int * ppIndata,int   nnIndataLen,  unsigned int  * pOutData, int   * pOutdataLen)$/;"	f
+ECB_k	app/Test.c	/^unsigned char ECB_k[32] = {0x40, 0xbb, 0x12, 0xdd, 0x6a, 0x82, 0x73, 0x86, 0x7f, 0x35, 0x29, 0xd3, 0x54, 0xb4, 0xa0, 0x26};$/;"	v
+ECCCipher	app/ecc.h	/^} ECCCipher;$/;"	t	typeref:struct:ECCCipher_st
+ECCCipher_st	app/ecc.h	/^typedef struct ECCCipher_st$/;"	s
+ECCSignature	app/ecc.h	/^} ECCSignature;$/;"	t	typeref:struct:ECCSignature_st
+ECCSignature_st	app/ecc.h	/^typedef struct ECCSignature_st$/;"	s
+ECC_CURVE_PARAM_LEN	app/ecc.h	79;"	d
+ECC_KEY_PAIR_LEN	app/ecc.h	78;"	d
+ECCrefCurveParam	app/ecc.h	/^}ECCrefCurveParam;$/;"	t	typeref:struct:__anon1
+ECCrefKeyPair	app/ecc.h	/^} ECCrefKeyPair;$/;"	t	typeref:struct:ECCrefKeyPair_st
+ECCrefKeyPair_st	app/ecc.h	/^typedef struct ECCrefKeyPair_st$/;"	s
+ECCrefPrivateKey	app/ecc.h	/^} ECCrefPrivateKey;$/;"	t	typeref:struct:ECCrefPrivateKey_st
+ECCrefPrivateKey_st	app/ecc.h	/^typedef struct ECCrefPrivateKey_st$/;"	s
+ECCrefPublicKey	app/ecc.h	/^} ECCrefPublicKey;$/;"	t	typeref:struct:ECCrefPublicKey_st
+ECCrefPublicKey_st	app/ecc.h	/^typedef struct ECCrefPublicKey_st$/;"	s
+ECCref_MAX_BITS	app/ecc.h	8;"	d
+ECCref_MAX_LEN	app/ecc.h	9;"	d
+ENC_COUNT	app/Test.c	25;"	d	file:
+EX_C_DWORD_LEN	app/rsa.h	48;"	d
+EX_C_PriKey	app/rsa.h	/^	unsigned int EX_C_PriKey[EX_C_DWORD_LEN];$/;"	m	struct:__anon6
+EX_C_PubKey	app/rsa.h	/^	unsigned int EX_C_PubKey[EX_C_DWORD_LEN];$/;"	m	struct:__anon6
+HEAD_IN_SECTION	app/Test.c	23;"	d	file:
+HuaDa_RSAKeyConv	app/Test.c	/^void HuaDa_RSAKeyConv(R_RSA_PRIVATE_KEY *privateKey)$/;"	f
+LENGTH_M	app/Test.c	24;"	d	file:
+M	app/ecc.h	/^    unsigned char M[ECCref_MAX_LEN];$/;"	m	struct:ECCCipher_st
+MAX_IO_BUFFER	virtio_blk.c	17;"	d	file:
+MAX_RSA_MODULUS_BITS	app/rsa.h	14;"	d
+MAX_RSA_MODULUS_LEN	app/rsa.h	23;"	d
+MAX_RSA_PRIME_LEN	app/rsa.h	24;"	d
+MIN_RSA_MODULUS_BITS	app/rsa.h	13;"	d
+MNG_ADD_MNGR	app/CmdCode.h	125;"	d
+MNG_ADD_OPTR	app/CmdCode.h	128;"	d
+MNG_BACKUP_FINAL	app/CmdCode.h	145;"	d
+MNG_BACKUP_INIT	app/CmdCode.h	142;"	d
+MNG_DEL_MNGR	app/CmdCode.h	126;"	d
+MNG_DST_RSA_KEY	app/CmdCode.h	25;"	d
+MNG_ECC_DST_CURVE	app/CmdCode.h	93;"	d
+MNG_ECC_DST_KEYPAIR	app/CmdCode.h	96;"	d
+MNG_ECC_IMP_CURVE	app/CmdCode.h	91;"	d
+MNG_ECC_IMP_KEYPAIR	app/CmdCode.h	94;"	d
+MNG_EXP_DATA	app/CmdCode.h	144;"	d
+MNG_EXP_KEYPART	app/CmdCode.h	143;"	d
+MNG_IMP_DATA	app/CmdCode.h	149;"	d
+MNG_IMP_KEYPART	app/CmdCode.h	148;"	d
+MNG_INIT_OPTR_PWD	app/CmdCode.h	127;"	d
+MNG_PUT_RSA_KEY	app/CmdCode.h	24;"	d
+MNG_RESTORE_FINAL	app/CmdCode.h	150;"	d
+MNG_RESTORE_INIT	app/CmdCode.h	147;"	d
+MNG_SET_SKAC	app/CmdCode.h	36;"	d
+My_convert_RSA	app/Test.c	/^void My_convert_RSA(unsigned char *pDst, unsigned int *pSrc, int nDWORDnum)$/;"	f
+NN_DIGIT	app/rsa.h	/^typedef unsigned int   NN_DIGIT;   \/\/typedef UINT4 NN_DIGIT;$/;"	t
+NN_HALF_DIGIT	app/rsa.h	/^typedef unsigned short NN_HALF_DIGIT;  \/\/typedef UINT2 NN_HALF_DIGIT;$/;"	t
+NON_CHG_IC_PWD	app/CmdCode.h	139;"	d
+NON_DEV_CUR_STATUS	app/CmdCode.h	131;"	d
+NON_DST_IC_DATA	app/CmdCode.h	138;"	d
+NON_FIRMWARE_VER	app/CmdCode.h	132;"	d
+NON_GET_DEV_INFO	app/CmdCode.h	135;"	d
+NON_INIT_DEV	app/CmdCode.h	124;"	d
+NON_LOGIN	app/CmdCode.h	129;"	d
+NON_LOGOUT	app/CmdCode.h	130;"	d
+NON_SET_DEV_INFO	app/CmdCode.h	134;"	d
+OM_HUADA_GEN_RSA_KEY	app/CmdCode.h	18;"	d
+OPT_AES_DEC	app/CmdCode.h	70;"	d
+OPT_AES_ENC	app/CmdCode.h	69;"	d
+OPT_CHK_SKAC	app/CmdCode.h	37;"	d
+OPT_DES3_DEC	app/CmdCode.h	67;"	d
+OPT_DES3_ENC	app/CmdCode.h	66;"	d
+OPT_DES_DEC	app/CmdCode.h	65;"	d
+OPT_DES_ENC	app/CmdCode.h	64;"	d
+OPT_DST_KEY	app/CmdCode.h	30;"	d
+OPT_ECC_ECDH_KEYAGR	app/CmdCode.h	107;"	d
+OPT_ECC_EXP_CURVE	app/CmdCode.h	92;"	d
+OPT_ECC_EXP_PUBKEY	app/CmdCode.h	95;"	d
+OPT_ECC_INIT	app/CmdCode.h	89;"	d
+OPT_ECC_SCE_DEC	app/CmdCode.h	106;"	d
+OPT_ECC_SCE_ENC	app/CmdCode.h	105;"	d
+OPT_ECC_SCE_KEYAGR	app/CmdCode.h	108;"	d
+OPT_ECC_SIGN	app/CmdCode.h	103;"	d
+OPT_ECC_VERIFY	app/CmdCode.h	104;"	d
+OPT_EXC_DIGENV_RSA	app/CmdCode.h	22;"	d
+OPT_EXP_RSA_PUBKEY	app/CmdCode.h	17;"	d
+OPT_GEN_KEY_PK_RSA	app/CmdCode.h	20;"	d
+OPT_GEN_RANDOM	app/CmdCode.h	11;"	d
+OPT_HASH_FIN	app/CmdCode.h	113;"	d
+OPT_HASH_INIT	app/CmdCode.h	111;"	d
+OPT_HASH_UPD	app/CmdCode.h	112;"	d
+OPT_HD_RSA_PK_OPT	app/CmdCode.h	51;"	d
+OPT_HD_RSA_SIGN	app/CmdCode.h	49;"	d
+OPT_HD_RSA_SK_OPT	app/CmdCode.h	52;"	d
+OPT_HD_RSA_VERIFY	app/CmdCode.h	50;"	d
+OPT_HUADA_RANDOM	app/CmdCode.h	115;"	d
+OPT_KEY_STATUS	app/CmdCode.h	33;"	d
+OPT_MNG_ECC_GEN_KEY	app/CmdCode.h	90;"	d
+OPT_MNG_GEN_RSA_KEY	app/CmdCode.h	16;"	d
+OPT_PK_RSA_2048	app/CmdCode.h	45;"	d
+OPT_PUT_KEY	app/CmdCode.h	29;"	d
+OPT_PUT_KEY_SK_RSA	app/CmdCode.h	21;"	d
+OPT_QH_PK_RSA_1024	app/CmdCode.h	40;"	d
+OPT_QH_SK_RSA_1024	app/CmdCode.h	42;"	d
+OPT_QH_SPC_PK_RSA_1024	app/CmdCode.h	41;"	d
+OPT_SK_RSA_2048	app/CmdCode.h	46;"	d
+OPT_SM1_CBC_DEC	app/CmdCode.h	62;"	d
+OPT_SM1_CBC_ENC	app/CmdCode.h	61;"	d
+OPT_SM1_ECB_DEC	app/CmdCode.h	60;"	d
+OPT_SM1_ECB_ENC	app/CmdCode.h	59;"	d
+OPT_SMS4_CBC_DEC	app/CmdCode.h	75;"	d
+OPT_SMS4_CBC_ENC	app/CmdCode.h	74;"	d
+OPT_SMS4_ECB_DEC	app/CmdCode.h	73;"	d
+OPT_SMS4_ECB_ENC	app/CmdCode.h	72;"	d
+OPT_SOFT_SM3_FIN	app/CmdCode.h	121;"	d
+OPT_SOFT_SM3_INIT	app/CmdCode.h	119;"	d
+OPT_SOFT_SM3_UPD	app/CmdCode.h	120;"	d
+OPT_SSF33_CBC_ENC	app/CmdCode.h	57;"	d
+OPT_SSF33_DEC	app/CmdCode.h	56;"	d
+OPT_SSF33_ENC	app/CmdCode.h	55;"	d
+OPT_STORE_KEY	app/CmdCode.h	28;"	d
+OPT_USR_ROM_READ	app/CmdCode.h	12;"	d
+OPT_USR_ROM_WRITE	app/CmdCode.h	13;"	d
+OpenDevice	app/Test.c	/^int OpenDevice(int *phDevice)$/;"	f
+OutdataLen	app/Test.c	/^unsigned int *OutdataLen;$/;"	v
+POINTER	app/rsa.h	/^typedef unsigned char *POINTER;\/*POINTER defines a generic pointer type*\/$/;"	t
+RSAKeyConvert	app/Test.c	/^void RSAKeyConvert(R_RSA_PRIVATE_KEY *privateKey)$/;"	f
+RSA_EXTEND_C_DLEN	app/rsa.h	49;"	d
+RSA_PRIVATE_KEY_LEN	app/rsa.h	27;"	d
+RSA_PUBLIC_KEY_LEN	app/rsa.h	26;"	d
+R_RSA_EXTEND_C	app/rsa.h	/^} R_RSA_EXTEND_C;$/;"	t	typeref:struct:__anon6
+R_RSA_PRIVATE_KEY	app/rsa.h	/^} R_RSA_PRIVATE_KEY;$/;"	t	typeref:struct:__anon5
+R_RSA_PROTO_KEY	app/rsa.h	/^} R_RSA_PROTO_KEY;$/;"	t	typeref:struct:__anon3
+R_RSA_PUBLIC_KEY	app/rsa.h	/^} R_RSA_PUBLIC_KEY;$/;"	t	typeref:struct:__anon4
+Read_File	app/Test.c	/^int Read_File(char *filename, char *mode, void *buffer, size_t size)$/;"	f
+SDR_ALGMODNOTSUPPORT	app/ErrCode.h	20;"	d
+SDR_ALGNOTSUPPORT	app/ErrCode.h	19;"	d
+SDR_BUFFER_TOO_SMALL	app/ErrCode.h	32;"	d
+SDR_COMMFAIL	app/ErrCode.h	13;"	d
+SDR_CRYPTO_NOT_INIT	app/ErrCode.h	35;"	d
+SDR_DATA_PAD	app/ErrCode.h	33;"	d
+SDR_DATA_SIZE	app/ErrCode.h	34;"	d
+SDR_DEVICE_STATUS_ERR	app/ErrCode.h	39;"	d
+SDR_FILENOEXIST	app/ErrCode.h	28;"	d
+SDR_FILEOFSERR	app/ErrCode.h	29;"	d
+SDR_FILESIZEERR	app/ErrCode.h	27;"	d
+SDR_HARDFAIL	app/ErrCode.h	14;"	d
+SDR_IC_ERR	app/ErrCode.h	45;"	d
+SDR_KEYERR	app/ErrCode.h	31;"	d
+SDR_KEYNOTEXIST	app/ErrCode.h	18;"	d
+SDR_KEYTYPEERR	app/ErrCode.h	30;"	d
+SDR_LOGIN_ERR	app/ErrCode.h	41;"	d
+SDR_MANAGEMENT_DENY	app/ErrCode.h	37;"	d
+SDR_NOTSUPPORT	app/ErrCode.h	12;"	d
+SDR_OK	app/ErrCode.h	10;"	d
+SDR_OPENDEVICE	app/ErrCode.h	15;"	d
+SDR_OPENSESSION	app/ErrCode.h	16;"	d
+SDR_OPERATION_DENY	app/ErrCode.h	38;"	d
+SDR_PARAMENT_ERR	app/ErrCode.h	43;"	d
+SDR_PARDENY	app/ErrCode.h	17;"	d
+SDR_PKOPERR	app/ErrCode.h	21;"	d
+SDR_SIGNERR	app/ErrCode.h	23;"	d
+SDR_SKOPERR	app/ErrCode.h	22;"	d
+SDR_STEPERR	app/ErrCode.h	26;"	d
+SDR_SYMOPERR	app/ErrCode.h	25;"	d
+SDR_UNKNOWERR	app/ErrCode.h	11;"	d
+SDR_USERID_ERR	app/ErrCode.h	42;"	d
+SDR_VERIFYERR	app/ErrCode.h	24;"	d
+SECTION_IN	app/Test.c	20;"	d	file:
+SECTION_OUT	app/Test.c	21;"	d	file:
+SM3_CONTEXT	app/ecc.h	/^}SM3_CONTEXT;$/;"	t	typeref:struct:__anon2
+SMS4_ECB_c	app/Test.c	/^unsigned int SMS4_ECB_c[4] = {0X34df1e68,0x5e9606d2,0x4fe9b386,0x46426e53};$/;"	v
+SMS4_ECB_k	app/Test.c	/^unsigned int SMS4_ECB_k[4] = {0x67452301,0xefcdab89,0x98badcfe,0x10325476};$/;"	v
+SMS4_ECB_p	app/Test.c	/^unsigned int SMS4_ECB_p[4] = {0x67452301,0xefcdab89,0x98badcfe,0x10325476};$/;"	v
+SWXA_GET_SUBDEVID	app/Test.c	18;"	d	file:
+SWXA_RESET_COMMAND	app/Test.c	17;"	d	file:
+Sign	app/Test.c	/^int Sign(unsigned char * plain,int length,unsigned char * signeddata,int signedlength)$/;"	f
+Test_RSA_sign	app/Test.c	/^int Test_RSA_sign()$/;"	f
+Test_RSA_verify	app/Test.c	/^int Test_RSA_verify()$/;"	f
+Test_SM4_ECB_ENCDEC	app/Test.c	/^void Test_SM4_ECB_ENCDEC()$/;"	f
+Test_SM_ECB_ENCDEC	app/Test.c	/^void Test_SM_ECB_ENCDEC()$/;"	f
+VIRTIO_BLK_BARRIER	virtio_blk.h	33;"	d
+VIRTIO_BLK_F_FLUSH	virtio_blk.h	46;"	d
+VIRTIO_BLK_ID_BYTES	virtio_blk.h	49;"	d
+VIRTIO_BLK_S_IOERR	virtio_blk.h	112;"	d
+VIRTIO_BLK_S_OK	virtio_blk.h	111;"	d
+VIRTIO_BLK_S_UNSUPP	virtio_blk.h	113;"	d
+VIRTIO_BLK_T_BARRIER	virtio_blk.h	90;"	d
+VIRTIO_BLK_T_FLUSH	virtio_blk.h	84;"	d
+VIRTIO_BLK_T_GET_ID	virtio_blk.h	87;"	d
+VIRTIO_BLK_T_IN	virtio_blk.h	77;"	d
+VIRTIO_BLK_T_OUT	virtio_blk.h	78;"	d
+VIRTIO_BLK_T_SCSI_CMD	virtio_blk.h	81;"	d
+VIRTIO_ID_PCIE	virtio_blk.c	18;"	d	file:
+VIRTIO_PCIE_F_BUFFLENGTH	virtio_blk.h	35;"	d
+VIRTIO_PCIE_F_CAPACITY	virtio_blk.h	34;"	d
+VIRTIO_PCIE_F_FLAG	virtio_blk.h	36;"	d
+VIRTIO_PCIE_F_SEG_MAX	virtio_blk.h	37;"	d
+Verify	app/Test.c	/^int Verify(unsigned char *data_signed,int data_signedlength,unsigned char *data_tocompare,int data_tocomparelength)$/;"	f
+Write_File	app/Test.c	/^int	Write_File(char *filename, char *mode, void *buffer, size_t size)$/;"	f
+_EXRSA_H_	app/rsa.h	2;"	d
+_LINUX_VIRTIO_BLK_H	virtio_blk.h	2;"	d
+_SWXA_CMDCODE_H_	app/CmdCode.h	8;"	d
+_SWXA_ECC_H_	app/ecc.h	2;"	d
+_SWXA_ERRCODE_H_	app/ErrCode.h	8;"	d
+__this_module	virtio_blk.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	virtio_blk.mod.c	/^__used$/;"	v	file:
+__used	virtio_blk.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+a	app/ecc.h	/^	unsigned char a[ECCref_MAX_LEN];	\/\/≤Œ ˝a$/;"	m	struct:__anon1
+b	app/ecc.h	/^	unsigned char b[ECCref_MAX_LEN];	\/\/≤Œ ˝b$/;"	m	struct:__anon1
+bits	app/ecc.h	/^	unsigned int  bits;$/;"	m	struct:ECCrefKeyPair_st
+bits	app/ecc.h	/^	unsigned int  bits;$/;"	m	struct:ECCrefPrivateKey_st
+bits	app/ecc.h	/^	unsigned int  bits;$/;"	m	struct:ECCrefPublicKey_st
+bits	app/rsa.h	/^  unsigned int  bits;                 		\/* length in bits of modulus *\/$/;"	m	struct:__anon4
+bits	app/rsa.h	/^  unsigned int  bits;                           	\/* length in bits of modulus *\/$/;"	m	struct:__anon5
+bits	app/rsa.h	/^  unsigned int bits;     \/* length in bits of modulus *\/$/;"	m	struct:__anon3
+buffer	app/ecc.h	/^    unsigned char buffer[64];           \/* input buffer *\/$/;"	m	struct:__anon2
+bufflength	virtio_blk.h	/^	__u32 bufflength;$/;"	m	struct:virtio_pcie_config
+capacity	virtio_blk.h	/^	__u64 capacity;$/;"	m	struct:virtio_pcie_config
+cdev	virtio_blk.c	/^	struct cdev cdev;$/;"	m	struct:frontendcard	typeref:struct:frontendcard::cdev	file:
+coefficient	app/rsa.h	/^  unsigned char coefficient[MAX_RSA_PRIME_LEN];      	\/* qInv *\/$/;"	m	struct:__anon5
+config_enable	virtio_blk.c	/^	bool config_enable;$/;"	m	struct:virtio_blk	file:
+config_lock	virtio_blk.c	/^	struct mutex config_lock;$/;"	m	struct:virtio_blk	typeref:struct:virtio_blk::mutex	file:
+config_work	virtio_blk.c	/^	struct work_struct config_work;$/;"	m	struct:virtio_blk	typeref:struct:virtio_blk::work_struct	file:
+convert_RSA_ORDER	app/Test.c	/^void convert_RSA_ORDER(unsigned int *dDWORD,unsigned int *sDWORD,int nDWORDnum)$/;"	f
+count	app/ecc.h	/^    unsigned int  count[2];             \/*number of bits, modulo 2^64 (lsb first) *\/$/;"	m	struct:__anon2
+data_len	virtio_blk.h	/^	__u32 data_len;$/;"	m	struct:virtio_scsi_inhdr
+destroy_chardev	virtio_blk.c	/^static void destroy_chardev(struct frontendcard * frontcard)$/;"	f	file:
+errors	virtio_blk.h	/^	__u32 errors;$/;"	m	struct:virtio_scsi_inhdr
+exponent	app/rsa.h	/^  unsigned char exponent[MAX_RSA_MODULUS_LEN]; 	\/* public exponent *\/$/;"	m	struct:__anon4
+exponent	app/rsa.h	/^  unsigned char exponent[MAX_RSA_MODULUS_LEN];      	\/* d *\/$/;"	m	struct:__anon5
+features	virtio_blk.c	/^static unsigned int features[] = {$/;"	v	file:
+fini	virtio_blk.c	/^module_exit(fini);$/;"	v
+fini	virtio_blk.c	/^static void __exit fini(void)$/;"	f	file:
+flag	virtio_blk.c	/^	int flag ;$/;"	m	struct:frontendcard	file:
+flag	virtio_blk.c	/^	int flag;\/\/Âè™ÊòØ‰∏Ä‰∏™Ê†áËÆ∞ÔºåÊµãËØïÂú®readÂíåwriteÊñπÊ≥ï‰∏≠ÊòØÂê¶ËÉΩÊ≠£Á°ÆÊâæÂà∞$/;"	m	struct:virtio_blk	file:
+flag	virtio_blk.h	/^	__u32 flag;$/;"	m	struct:virtio_pcie_config
+flags	virtio_blk.c	/^	int flags;$/;"	m	struct:virtblk_req	file:
+front_wait_on_interrupt	virtio_blk.c	/^	wait_queue_head_t front_wait_on_interrupt;$/;"	m	struct:frontendcard	file:
+frontcard_close	virtio_blk.c	/^int frontcard_close(struct inode * inode,struct file * filep)$/;"	f
+frontcard_open	virtio_blk.c	/^int frontcard_open(struct inode * inode, struct file * filep)$/;"	f
+frontcard_ops	virtio_blk.c	/^static const struct file_operations frontcard_ops ={$/;"	v	typeref:struct:file_operations	file:
+frontcard_read	virtio_blk.c	/^ssize_t frontcard_read(struct file * filep, char __user * buf,size_t count,loff_t * fpos)$/;"	f
+frontcard_write	virtio_blk.c	/^ssize_t frontcard_write(struct file * filep,const char __user * buf,size_t count,loff_t * fpos)$/;"	f
+frontendcard	virtio_blk.c	/^	struct frontendcard frontendcard;$/;"	m	struct:virtio_blk	typeref:struct:virtio_blk::frontendcard	file:
+frontendcard	virtio_blk.c	/^struct frontendcard$/;"	s	file:
+gx	app/ecc.h	/^	unsigned char gx[ECCref_MAX_LEN];	\/\/≤Œ ˝Gx: x coordinate of the base point G$/;"	m	struct:__anon1
+gy	app/ecc.h	/^	unsigned char gy[ECCref_MAX_LEN];	\/\/≤Œ ˝Gy: y coordinate of the base point G$/;"	m	struct:__anon1
+id_table	virtio_blk.c	/^static const struct virtio_device_id id_table[] = {$/;"	v	typeref:struct:virtio_device_id	file:
+in_hdr	virtio_blk.c	/^	struct virtio_scsi_inhdr in_hdr;$/;"	m	struct:virtblk_req	typeref:struct:virtblk_req::virtio_scsi_inhdr	file:
+index	virtio_blk.c	/^	int index;$/;"	m	struct:virtio_blk	file:
+init	virtio_blk.c	/^module_init(init);$/;"	v
+init	virtio_blk.c	/^static int __init init(void)$/;"	f	file:
+init_vq	virtio_blk.c	/^static int init_vq(struct virtio_blk *vblk)$/;"	f	file:
+io_buffer	virtio_blk.c	/^	char * io_buffer;\/\/ÁºìÂ≠òÂ∫îÁî®Â±Ç‰º†ÈÄí‰∏ãÊù•ÁöÑÁºìÂÜ≤Âå∫$/;"	m	struct:frontendcard	file:
+ioprio	virtio_blk.h	/^	__u32 ioprio;$/;"	m	struct:virtio_pcie_outhdr
+len	app/ecc.h	/^	unsigned int  len;					\/\/≤Œ ˝Œª≥§Len£¨Len±ÿ–ÎŒ™160°¢192°¢224ªÚ256$/;"	m	struct:__anon1
+main	app/Test.c	/^int main()$/;"	f
+major	virtio_blk.c	/^int major = 234;\/\/Â≠óÁ¨¶ËÆæÂ§á‰∏ªËÆæÂ§áÂè∑$/;"	v
+modulus	app/rsa.h	/^  unsigned char modulus[MAX_RSA_MODULUS_LEN];  	\/* modulus *\/$/;"	m	struct:__anon4
+modulus	app/rsa.h	/^  unsigned char modulus[MAX_RSA_MODULUS_LEN];       	\/* n *\/$/;"	m	struct:__anon5
+n	app/ecc.h	/^	unsigned char n[ECCref_MAX_LEN];	\/\/Ω◊N: order n of the base point G$/;"	m	struct:__anon1
+obj-m	Makefile	/^obj-m := virtio_blk.o$/;"	m
+out_hdr	virtio_blk.c	/^	struct virtio_pcie_outhdr out_hdr;$/;"	m	struct:virtblk_req	typeref:struct:virtblk_req::virtio_pcie_outhdr	file:
+p	app/ecc.h	/^	unsigned char p[ECCref_MAX_LEN];	\/\/Àÿ ˝p$/;"	m	struct:__anon1
+pInBuf	app/Test.c	/^unsigned int *pInBuf;$/;"	v
+pOutBuf	app/Test.c	/^unsigned int *pOutBuf;$/;"	v
+pool	virtio_blk.c	/^	mempool_t *pool;$/;"	m	struct:virtio_blk	file:
+prime	app/rsa.h	/^  unsigned char prime[2][MAX_RSA_PRIME_LEN];        	\/* p,q *\/$/;"	m	struct:__anon5
+primeExponent	app/rsa.h	/^  unsigned char primeExponent[2][MAX_RSA_PRIME_LEN];	\/* dp,dq *\/$/;"	m	struct:__anon5
+priv	virtio_blk.c	/^	void * priv;\/\/ÊöÇÁ©∫‰∏ÄÂ§áÂÆÉÁî®$/;"	m	struct:frontendcard	file:
+process_req	virtio_blk.c	/^int  process_req(struct virtio_blk * vblk,int length)$/;"	f
+publicExponent	app/rsa.h	/^  unsigned char publicExponent[MAX_RSA_MODULUS_LEN];	\/* e *\/$/;"	m	struct:__anon5
+queue_wait	virtio_blk.c	/^	wait_queue_head_t queue_wait;$/;"	m	struct:virtio_blk	file:
+r	app/ecc.h	/^	unsigned char r[ECCref_MAX_LEN];$/;"	m	struct:ECCSignature_st
+real_len	virtio_blk.h	/^	__u32 real_len;$/;"	m	struct:virtio_pcie_outhdr
+residual	virtio_blk.h	/^	__u32 residual;$/;"	m	struct:virtio_scsi_inhdr
+rsa_c	app/Test.c	/^unsigned int rsa_c[] = {$/;"	v
+rsa_cp	app/Test.c	/^unsigned int rsa_cp[]= { 0x000b3997,$/;"	v
+rsa_cq	app/Test.c	/^unsigned int rsa_cq[]= { 0x000840fe,$/;"	v
+rsa_cs	app/Test.c	/^unsigned int rsa_cs[]= { 0xb3,$/;"	v
+rsa_d	app/Test.c	/^unsigned int rsa_d[]= {$/;"	v
+rsa_dpdq	app/Test.c	/^unsigned int rsa_dpdq[]={$/;"	v
+rsa_e	app/Test.c	/^unsigned int rsa_e[] = {$/;"	v
+rsa_m	app/Test.c	/^unsigned int rsa_m[] =  {$/;"	v
+rsa_n	app/Test.c	/^unsigned int rsa_n[] = {$/;"	v
+rsa_p	app/Test.c	/^unsigned int rsa_p[] = {$/;"	v
+rsa_q	app/Test.c	/^unsigned int rsa_q[] = {$/;"	v
+rsa_qinv	app/Test.c	/^unsigned int rsa_qinv[]={$/;"	v
+rsa_t	app/Test.c	/^unsigned int rsa_t[] = {$/;"	v
+s	app/ecc.h	/^	unsigned char s[ECCref_MAX_LEN];$/;"	m	struct:ECCSignature_st
+sector	virtio_blk.h	/^	__u32 sector;$/;"	m	struct:virtio_pcie_outhdr
+seg_max	virtio_blk.h	/^	__u32 seg_max;$/;"	m	struct:virtio_pcie_config
+sense_len	virtio_blk.h	/^	__u32 sense_len;$/;"	m	struct:virtio_scsi_inhdr
+setup_chardev	virtio_blk.c	/^static int setup_chardev(struct frontendcard * frontcard)$/;"	f	file:
+sg	virtio_blk.c	/^	struct scatterlist sg[\/*sg_elems*\/];$/;"	m	struct:virtio_blk	typeref:struct:virtio_blk::scatterlist	file:
+sg	virtio_blk.c	/^	struct scatterlist sg[];\/\/Ëøô‰∏™‰πü‰∏çÈúÄË¶Å$/;"	m	struct:virtblk_req	typeref:struct:virtblk_req::scatterlist	file:
+sg_elems	virtio_blk.c	/^	unsigned int sg_elems;$/;"	m	struct:virtio_blk	file:
+stateIV	app/ecc.h	/^    unsigned int  stateIV[8];           \/*state (ABCDEFGH)*\/$/;"	m	struct:__anon2
+status	virtio_blk.c	/^	u8 status;$/;"	m	struct:virtblk_req	file:
+t_RSAKeyEncDec_Hard	app/Test.c	/^void t_RSAKeyEncDec_Hard() \/\/1024 RSAËøêÁÆó$/;"	f
+type	virtio_blk.h	/^	__u32 type;$/;"	m	struct:virtio_pcie_outhdr
+useFermat4	app/rsa.h	/^  int useFermat4;        \/* public exponent (1 = F4, 0 = 3) *\/$/;"	m	struct:__anon3
+vblk	virtio_blk.c	/^	struct virtio_blk *vblk;$/;"	m	struct:virtblk_req	typeref:struct:virtblk_req::virtio_blk	file:
+vdev	virtio_blk.c	/^	struct virtio_device *vdev;$/;"	m	struct:virtio_blk	typeref:struct:virtio_blk::virtio_device	file:
+virtblk_add_buf_wait	virtio_blk.c	/^static void virtblk_add_buf_wait(struct virtio_blk *vblk,$/;"	f	file:
+virtblk_add_req	virtio_blk.c	/^static inline void virtblk_add_req(struct virtblk_req *vbr,$/;"	f	file:
+virtblk_alloc_req	virtio_blk.c	/^static inline struct virtblk_req *virtblk_alloc_req(struct virtio_blk *vblk,$/;"	f	file:
+virtblk_config_changed	virtio_blk.c	/^static void virtblk_config_changed(struct virtio_device *vdev)$/;"	f	file:
+virtblk_done	virtio_blk.c	/^static void virtblk_done(struct virtqueue *vq)$/;"	f	file:
+virtblk_freeze	virtio_blk.c	/^static int virtblk_freeze(struct virtio_device *vdev)$/;"	f	file:
+virtblk_probe	virtio_blk.c	/^static int  virtblk_probe(struct virtio_device *vdev)$/;"	f	file:
+virtblk_remove	virtio_blk.c	/^static void virtblk_remove(struct virtio_device *vdev)$/;"	f	file:
+virtblk_req	virtio_blk.c	/^struct virtblk_req$/;"	s	file:
+virtblk_restore	virtio_blk.c	/^static int virtblk_restore(struct virtio_device *vdev)$/;"	f	file:
+virtblk_result	virtio_blk.c	/^static inline int virtblk_result(struct virtblk_req *vbr)$/;"	f	file:
+virtio_blk	virtio_blk.c	/^static struct virtio_driver virtio_blk={$/;"	v	typeref:struct:virtio_driver	file:
+virtio_blk	virtio_blk.c	/^struct virtio_blk$/;"	s	file:
+virtio_pcie_config	virtio_blk.h	/^struct virtio_pcie_config {$/;"	s
+virtio_pcie_outhdr	virtio_blk.h	/^struct virtio_pcie_outhdr {$/;"	s
+virtio_scsi_inhdr	virtio_blk.h	/^struct virtio_scsi_inhdr {$/;"	s
+vq	virtio_blk.c	/^	struct virtqueue *vq;$/;"	m	struct:virtio_blk	typeref:struct:virtio_blk::virtqueue	file:
+work	virtio_blk.c	/^	struct work_struct work;$/;"	m	struct:virtblk_req	typeref:struct:virtblk_req::work_struct	file:
+x	app/ecc.h	/^	unsigned char x[ECCref_MAX_LEN];  \/\/ π´‘ø$/;"	m	struct:ECCrefKeyPair_st
+x	app/ecc.h	/^	unsigned char x[ECCref_MAX_LEN];$/;"	m	struct:ECCCipher_st
+x	app/ecc.h	/^	unsigned char x[ECCref_MAX_LEN];$/;"	m	struct:ECCrefPublicKey_st
+y	app/ecc.h	/^	unsigned char y[ECCref_MAX_LEN];  \/\/ π´‘ø$/;"	m	struct:ECCrefKeyPair_st
+y	app/ecc.h	/^	unsigned char y[ECCref_MAX_LEN];$/;"	m	struct:ECCCipher_st
+y	app/ecc.h	/^	unsigned char y[ECCref_MAX_LEN];$/;"	m	struct:ECCrefPublicKey_st
